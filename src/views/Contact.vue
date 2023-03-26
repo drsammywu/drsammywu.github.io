@@ -13,19 +13,19 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: 'New York, New York',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'sammy.wu31@gmail.com',
 					icon: 'mail',
 				},
-				{
-					id: 3,
-					name: '555 8888 888',
-					icon: 'phone',
-				},
+				// {
+				// 	id: 3,
+				// 	name: '646 726 8896',
+				// 	icon: 'phone',
+				// },
 			],
 		};
 	},
