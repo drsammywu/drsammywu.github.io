@@ -82,7 +82,7 @@ export default {
 		>
 			<!-- Header menu links and small screen hamburger menu -->
 			<div class="flex justify-between items-center px-4 sm:px-0">
-				<!-- Header logos -->
+				<!-- Header logos 
 				<div>
 					<router-link to="/"
 						><img
@@ -99,6 +99,7 @@ export default {
 						/>
 					</router-link>
 				</div>
+				-->
 
 				<!-- Theme switcher small screen -->
 				<theme-switcher
