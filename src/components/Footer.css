@@ -1,0 +1,194 @@
+/* Footer – healthcare compliant, WCAG AA contrast, responsive */
+
+.site-footer {
+  margin-top: auto;
+  background: var(--color-nav-bg, #1a365d);
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+/* Emergency notice – visually separated, high visibility */
+.footer-emergency {
+  background: #b91c1c;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-bottom: 3px solid #991b1b;
+}
+
+.footer-emergency-text {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main footer content */
+.footer-inner {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  min-width: 0;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.footer-address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.footer-practice-name {
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-doctor {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.footer-address-block,
+.footer-tel,
+.footer-fax,
+.footer-email {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-address a,
+.footer-links a {
+  color: #90cdf4;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.footer-address a:hover,
+.footer-address a:focus,
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #fff;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.footer-address a:focus,
+.footer-links a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Office hours – definition list */
+.footer-hours-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-hours-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-hours-row:last-child {
+  margin-bottom: 0;
+}
+
+.footer-hours-row dt {
+  margin: 0;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  flex: 0 0 7rem;
+}
+
+.footer-hours-row dd {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Patient and legal link lists */
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-disclaimer {
+  margin: 1rem 0 0;
+  padding: 1rem 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.55;
+}
+
+/* Copyright */
+.footer-bottom {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 600px) {
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Desktop: 3–4 columns, no fixed height */
+@media (min-width: 900px) {
+  .footer-inner {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .footer-section {
+    break-inside: avoid;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-inner {
+    padding: 2.5rem 2rem;
+  }
+
+  .footer-emergency {
+    padding: 1rem 2rem;
+  }
+
+  .footer-bottom {
+    padding: 1rem 2rem;
+  }
+}
