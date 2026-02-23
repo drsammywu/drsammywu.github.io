@@ -8,7 +8,7 @@ const experience = [
     logo: 'burke-logo.png',
     type: 'Full-time',
     dates: 'September 2025 – Present',
-    duration: '6 months',
+    duration: '',
     location: 'Burke Rehabilitation Hospital / White Plains Hospital Center for Cancer Care',
     detail: 'Assistant Professor of Physical Medicine & Rehabilitation at Albert Einstein College of Medicine, Montefiore Health System',
   },
@@ -74,7 +74,7 @@ function About() {
         <p>Dr. Wu treats patients throughout their cancer journey, whether it is creating a rehabilitation exercise plan to optimize strength before cancer treatment (chemotherapy, immunotherapy, radiation therapy, surgery, bone marrow transplantation) or optimizing function during survivorship.</p>
 
         <p className="page-contact"><strong>Contact:</strong> <a href="tel:+19145972332">(914) 597-2332</a></p>
-        
+
         <h2 className="section-title">Experience</h2>
         <div className="timeline">
           {experience.map((item, index) => (
