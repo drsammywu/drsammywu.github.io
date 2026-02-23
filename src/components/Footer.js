@@ -149,7 +149,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <p className="footer-copyright">
-          © {footerConfig.copyrightYear} {footerConfig.practiceName}. All rights reserved.
+          © {footerConfig.copyrightYear} Sammy Wu, MD. All rights reserved.
         </p>
       </div>
 
