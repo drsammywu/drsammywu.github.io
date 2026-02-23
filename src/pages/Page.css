@@ -358,6 +358,7 @@
 
 .contact-block p {
   margin-bottom: 0.5rem;
+  margin-top: 8px;
 }
 
 .contact-block p:last-child {
@@ -367,7 +368,7 @@
 .contact-block-heading {
   font-size: 1.1rem;
   color: var(--color-heading, #1a365d);
-  margin: 0 0 0.75rem;
+  margin: 0 0 4px;
   font-weight: 700;
 }
 

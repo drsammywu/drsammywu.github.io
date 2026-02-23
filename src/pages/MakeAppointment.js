@@ -9,6 +9,13 @@ function MakeAppointment() {
           To schedule an appointment with Dr. Sammy Wu, please use the information below and call the office directly.
         </p>
         <div className="contact-block">
+        <h2 className="contact-block-heading">White Plains Hospital</h2>
+          <p className="contact-address">
+          WPH at Cancer Rehabilitation Medicine<br/>
+          2 Longview Avenue<br/>
+          White Plains, New York 10601
+          </p>
+          <br></br>
           <h2 className="contact-block-heading">Burke Outpatient Physician Practice</h2>
           <p className="contact-address">
             785 Mamaroneck Avenue<br />
@@ -19,10 +26,14 @@ function MakeAppointment() {
           <p><strong>Fax:</strong> (914) 597-2794</p>
 
           <p>
-            For more information and to view Dr. Wu’s profile, visit:{' '}
+            For more information, view Dr. Wu's profile on {' '}
             <a href="https://www.burke.org/find-a-doctor/profile/sammy-wu/" target="_blank" rel="noopener noreferrer">
-              Burke Rehabilitation — Find a Doctor: Sammy Wu
-            </a>
+              Burke Rehabilitation
+            </a>&nbsp;or&nbsp; 
+            <a href="https://doctors.wphospital.org/providers/1174150247/sammy-wu" target="_blank" rel="noopener noreferrer">
+              White Plains Hospital
+            </a> 
+            .
           </p>
         </div>
       </section>
