@@ -74,12 +74,6 @@ function Footer() {
 
   return (
     <footer className="site-footer" role="contentinfo">
-      <div className="footer-emergency">
-        <p className="footer-emergency-text">
-          If you are experiencing a medical emergency, call 911 immediately. Do not use this website or any online forms to communicate urgent medical needs.
-        </p>
-      </div>
-
       <div className="footer-inner">
         <section className="footer-section footer-practice" aria-labelledby="footer-practice-heading">
           <h2 id="footer-practice-heading" className="footer-heading">Practice Information</h2>
@@ -119,7 +113,17 @@ function Footer() {
           <h2 id="footer-patient-heading" className="footer-heading">Patient Resources</h2>
           <nav className="footer-nav" aria-label="Patient resources">
             <ul className="footer-links">
-              <li><a href={footerConfig.links.requestAppointment}>Request Appointment</a></li>
+              <li><a href="#/appointment"
+              onClick={() => {
+                setTimeout(() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth', // or 'auto' if you want instant jump
+                  })
+                }, 0)
+              }}
+              >Request Appointment</a>
+              </li>
               {/* <li><span className="footer-text-only">Patient Portal Login</span></li>
               <li><span className="footer-text-only">Telehealth Visit</span></li>
               <li><span className="footer-text-only">Pay Bill</span></li>
@@ -153,6 +157,11 @@ function Footer() {
         </p>
       </div>
 
+      <div className="footer-emergency">
+        <p className="footer-emergency-text">
+          If you are experiencing a medical emergency, call 911 immediately. Do not use this website or any online forms to communicate urgent medical needs.
+        </p>
+      </div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

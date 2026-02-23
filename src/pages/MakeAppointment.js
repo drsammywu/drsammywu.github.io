@@ -6,7 +6,7 @@ function MakeAppointment() {
       <section className="page-content">
         <h1>Make an Appointment</h1>
         <p>
-          To schedule an appointment with Dr. Sammy Wu, please use the contact information below or call the office directly.
+          To schedule an appointment with Dr. Sammy Wu, please use the information below and call the office directly.
         </p>
         <div className="contact-block">
           <h2 className="contact-block-heading">Burke Outpatient Physician Practice</h2>
@@ -17,13 +17,7 @@ function MakeAppointment() {
           </p>
           <p><strong>Main:</strong> <a href="tel:+19145972332">(914) 597-2332</a></p>
           <p><strong>Fax:</strong> (914) 597-2794</p>
-        </div>
 
-        <div className="contact-block appointment-cta">
-          <p className="appointment-call">
-            <strong>Call <a href="tel:+19145972332">(914) 597-2332</a></strong>
-          </p>
-          <p>Accepting new patients. A referral is required.</p>
           <p>
             For more information and to view Dr. Wu’s profile, visit:{' '}
             <a href="https://www.burke.org/find-a-doctor/profile/sammy-wu/" target="_blank" rel="noopener noreferrer">
