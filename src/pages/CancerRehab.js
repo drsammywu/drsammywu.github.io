@@ -6,10 +6,10 @@ function CancerRehab() {
       <section className="page-content">
         <h1>What is Cancer Rehabilitation?</h1>
         <p>
-          Cancer rehabilitation is a specialized area of physical medicine and rehabilitation focused on helping people with cancer maintain or regain function, independence, and quality of life during and after treatment.
+          Cancer rehabilitation is a specialized medical service that helps people improve strength, mobility, and overall function during and after cancer treatment. Treatments such as chemotherapy, radiation, and surgery can lead to fatigue, weakness, nerve pain, limited movement, or difficulty with daily activities.
         </p>
         <p>
-          This page will describe the role of cancer rehabilitation, common conditions addressed, and how it can support you or your loved ones. Content to be expanded.
+          A physician trained in Physical Medicine and Rehabilitation (PM&R), also known as a physiatrist, works with patients to manage these side effects through personalized, non-surgical care. The goal of cancer rehabilitation is to reduce pain, restore physical function, and help patients safely return to their daily routines and improve quality of life throughout the recovery process.
         </p>
       </section>
     </main>

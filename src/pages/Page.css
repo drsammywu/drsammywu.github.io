@@ -129,6 +129,27 @@
   border-top: 1px solid var(--color-bg-subtle, #e2e8f0);
 }
 
+/* Research page: publications & presentations */
+.research-list {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.research-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--color-text, #2d3748);
+}
+
+.research-list li:last-child {
+  margin-bottom: 0;
+}
+
+.research-list a {
+  word-break: break-all;
+}
+
 /* Timeline */
 .timeline {
   position: relative;
@@ -341,6 +362,25 @@
 
 .contact-block p:last-child {
   margin-bottom: 0;
+}
+
+.contact-block-heading {
+  font-size: 1.1rem;
+  color: var(--color-heading, #1a365d);
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+
+.contact-address {
+  margin-bottom: 0.75rem;
+}
+
+.appointment-cta {
+  margin-top: 1.5rem;
+}
+
+.appointment-call {
+  font-size: 1.05rem;
 }
 
 /* Tablet: 769px – 1024px */

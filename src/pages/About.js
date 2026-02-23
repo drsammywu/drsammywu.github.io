@@ -66,13 +66,12 @@ function About() {
             )}
           </div>
           <div className="about-intro-text">
-            <p><strong>Dr. Sammy Wu</strong> is a physician specializing in <strong>Physical Medicine and Rehabilitation</strong>, with a focus on <strong>cancer rehabilitation</strong>. He is <strong>Director of Cancer Rehabilitation Medicine at Burke Rehabilitation</strong> and <strong>Assistant Professor of PM&R at Albert Einstein College of Medicine</strong>, dedicated to improving functional outcomes and quality of life for patients during and after cancer treatment.</p>
+            <p><strong>Sammy Wu, MD</strong> is a board-certified physician in <strong>Physical Medicine &amp; Rehabilitation</strong> who specializes in <strong>Cancer Rehabilitation</strong>. He is the Director of Cancer Rehabilitation Medicine at the Burke Outpatient Physician Practice and an Assistant Professor of Physical Medicine and Rehabilitation at Albert Einstein College of Medicine.</p>
           </div>
         </div>
-        <p className="about-intro-after">Dr. Wu completed his <strong>Cancer Rehabilitation Fellowship at Memorial Sloan Kettering Cancer Center</strong> and his <strong>PM&R residency at NewYork-Presbyterian Hospital (Columbia/Cornell)</strong>, with clinical experience at <strong>Columbia University Irving Medical Center, Weill Cornell Medicine, Hospital for Special Surgery</strong>, and other leading institutions. He completed his <strong>Internal Medicine internship at Northwell Health – Lenox Hill Hospital</strong>.</p>
+        <p className="about-intro-after">Dr. Wu’s clinical focus is in neuromusculoskeletal medicine and evaluating cancer patients who have physical impairments and/or disabilities related to their cancer or their treatments. These impairments can include neuropathy, musculoskeletal disorders, cancer-related fatigue, gait difficulty, lymphedema, trismus, spasticity, spinal cord injury, brain injury, and amputation among other conditions. Dr. Wu’s goals are to improve function (strength, endurance, mobility, range of motion), improve quality of life, and manage pain for cancer patients so that they can return to the hobbies/activities that they love best. Dr. Wu believes in collaborative and comprehensive cancer care. He works closely with oncologists, physical, occupational, speech, and lymphedema therapists, and supportive care services (acupuncture, nutrition, palliative care) to create a holistic rehabilitation plan. When indicated, Dr. Wu may incorporate medications, bracing, or ultrasound-guided injections as part of the treatment plan.</p>
 
-        <p>A graduate of <strong>Albert Einstein College of Medicine</strong>, Dr. Wu earned his <strong>Doctor of Medicine</strong> with <em>Distinction in Research in Clinical Investigation</em> and a <strong>Bachelor of Science in Integrative Neuroscience, Magna Cum Laude, from Binghamton University</strong>. His research focuses on <strong>rehabilitation interventions for cancer patients</strong>, including bracing for posture, pain, and function, and the role of rehabilitation in palliative care. His work has been published in <em>PM&R</em> and <em>Current Physical Medicine and Rehabilitation Reports</em>.</p>
-        <p>He is actively involved in <strong>mentorship, medical education, and leadership</strong>, including the <strong>American Academy of PM&R Cancer Rehabilitation Physician Consortium</strong>, where he organizes educational panels for trainees, and has presented at national conferences on cancer rehabilitation, post-mastectomy pain, and assessment in physical medicine.</p>
+        <p>Dr. Wu treats patients throughout their cancer journey, whether it is creating a rehabilitation exercise plan to optimize strength before cancer treatment (chemotherapy, immunotherapy, radiation therapy, surgery, bone marrow transplantation) or optimizing function during survivorship.</p>
 
         <h2 className="section-title">Experience</h2>
         <div className="timeline">
@@ -117,7 +116,7 @@ function About() {
           ))}
         </div>
 
-        <p className="page-contact"><strong>Contact:</strong> <a href="mailto:drsammywu@gmail.com">drsammywu@gmail.com</a></p>
+        <p className="page-contact"><strong>Contact:</strong> <a href="tel:+19145972332">(914) 597-2332</a></p>
       </section>
     </main>
   );

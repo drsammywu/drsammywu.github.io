@@ -6,11 +6,30 @@ function MakeAppointment() {
       <section className="page-content">
         <h1>Make an Appointment</h1>
         <p>
-          To schedule an appointment with Dr. Sammy Wu, please use the contact information below. This page can later include a form or link to your practice’s scheduling system.
+          To schedule an appointment with Dr. Sammy Wu, please use the contact information below or call the office directly.
         </p>
         <div className="contact-block">
-          <p><strong>Email:</strong> <a href="mailto:drsammywu@gmail.com">drsammywu@gmail.com</a></p>
-          <p>Include your name, preferred contact method, and brief reason for the visit.</p>
+          <h2 className="contact-block-heading">Burke Outpatient Physician Practice</h2>
+          <p className="contact-address">
+            785 Mamaroneck Avenue<br />
+            Building 4, 1st Floor<br />
+            White Plains, NY 10605
+          </p>
+          <p><strong>Main:</strong> <a href="tel:+19145972332">(914) 597-2332</a></p>
+          <p><strong>Fax:</strong> (914) 597-2794</p>
+        </div>
+
+        <div className="contact-block appointment-cta">
+          <p className="appointment-call">
+            <strong>Call <a href="tel:+19145972332">(914) 597-2332</a></strong>
+          </p>
+          <p>Accepting new patients. A referral is required.</p>
+          <p>
+            For more information and to view Dr. Wu’s profile, visit:{' '}
+            <a href="https://www.burke.org/find-a-doctor/profile/sammy-wu/" target="_blank" rel="noopener noreferrer">
+              Burke Rehabilitation — Find a Doctor: Sammy Wu
+            </a>
+          </p>
         </div>
       </section>
     </main>

@@ -5,25 +5,24 @@ import './Footer.css';
  * Do not deploy with "[...]" placeholders in production.
  */
 const footerConfig = {
-  practiceName: '[Practice Name]',
+  practiceName: 'Burke Outpatient Physician Practice',
   doctorName: 'Dr. Sammy Wu',
   credentials: 'MD',
   address: {
-    line1: '[Street Address]',
-    line2: '[Suite/Floor if applicable]',
-    city: '[City]',
-    state: '[State]',
-    zip: '[ZIP Code]',
+    line1: '785 Mamaroneck Avenue',
+    line2: 'Building 4, 1st Floor',
+    city: 'White Plains',
+    state: 'NY',
+    zip: '10605',
   },
-  phone: '[Phone Number]',
-  fax: '[Fax Number]',
-  email: 'drsammywu@gmail.com',
+  phone: '(914) 597-2332',
+  fax: '(914) 597-2794',
   officeHours: {
-    weekdays: '[e.g. 9:00 AM – 5:00 PM]',
-    saturday: '[e.g. 9:00 AM – 1:00 PM or Closed]',
-    sunday: 'Closed',
+    mondayTuesday: 'White Plains Hospital',
+    wednesdayFriday: 'Burke Rehabilitation Hospital',
   },
   copyrightYear: 2026,
+  burkeProfileUrl: 'https://www.burke.org/find-a-doctor/profile/sammy-wu/',
   /** URLs for patient and legal pages – replace # with real paths when pages exist */
   links: {
     requestAppointment: '/#/appointment',
@@ -66,7 +65,6 @@ function Footer() {
     },
     telephone: footerConfig.phone,
     faxNumber: footerConfig.fax,
-    email: footerConfig.email,
     openingHoursSpecification: [
       { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '09:00', closes: '17:00' },
       { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', opens: '09:00', closes: '13:00' },
@@ -100,11 +98,6 @@ function Footer() {
             {footerConfig.fax && (
               <span className="footer-fax">Fax: {footerConfig.fax}</span>
             )}
-            {footerConfig.email && (
-              <span className="footer-email">
-                <a href={`mailto:${footerConfig.email}`}>{footerConfig.email}</a>
-              </span>
-            )}
           </address>
         </section>
 
@@ -112,16 +105,12 @@ function Footer() {
           <h2 id="footer-hours-heading" className="footer-heading">Office Hours</h2>
           <dl className="footer-hours-list">
             <div className="footer-hours-row">
-              <dt>Monday – Friday</dt>
-              <dd>{footerConfig.officeHours.weekdays}</dd>
+              <dt>Monday – Tuesday</dt>
+              <dd>{footerConfig.officeHours.mondayTuesday}</dd>
             </div>
             <div className="footer-hours-row">
-              <dt>Saturday</dt>
-              <dd>{footerConfig.officeHours.saturday}</dd>
-            </div>
-            <div className="footer-hours-row">
-              <dt>Sunday</dt>
-              <dd>{footerConfig.officeHours.sunday}</dd>
+              <dt>Wednesday – Friday</dt>
+              <dd>{footerConfig.officeHours.wednesdayFriday}</dd>
             </div>
           </dl>
         </section>
@@ -131,12 +120,12 @@ function Footer() {
           <nav className="footer-nav" aria-label="Patient resources">
             <ul className="footer-links">
               <li><a href={footerConfig.links.requestAppointment}>Request Appointment</a></li>
-              <li><a href={footerConfig.links.patientPortal}>Patient Portal Login</a></li>
-              <li><a href={footerConfig.links.telehealth}>Telehealth Visit</a></li>
-              <li><a href={footerConfig.links.payBill}>Pay Bill</a></li>
-              <li><a href={footerConfig.links.newPatientForms}>New Patient Forms</a></li>
-              <li><a href={footerConfig.links.prescriptionRefill}>Prescription Refill Request</a></li>
-              <li><a href={footerConfig.links.insuranceAccepted}>Insurance Accepted</a></li>
+              {/* <li><span className="footer-text-only">Patient Portal Login</span></li>
+              <li><span className="footer-text-only">Telehealth Visit</span></li>
+              <li><span className="footer-text-only">Pay Bill</span></li>
+              <li><span className="footer-text-only">New Patient Forms</span></li>
+              <li><span className="footer-text-only">Prescription Refill Request</span></li>
+              <li><span className="footer-text-only">Insurance Accepted</span></li> */}
             </ul>
           </nav>
         </section>
